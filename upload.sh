@@ -25,7 +25,7 @@ git stash pop
 
 confirmed="n"
 NewVersionNumber=""
-ProjectName="HXPhotoPicker"
+ProjectName="JLYKit"
 
 getNewVersion() {
 read -p "请输入新的版本号: " NewVersionNumber
