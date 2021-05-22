@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
 s.name = 'JLYKit'
-s.version = '0.9.5'
+s.version = '10.9.5'
 s.license = 'MIT'
 s.summary = 'A simple framework on iOS.'
-s.homepage = 'https://github.com/HappyiOSYuan/JLYKit'
-s.authors = { '宁袁' => '1294752518@qq.com' }
-s.source = { :git => 'https://github.com/HappyiOSYuan/JLYKit.git', :tag => s.version.to_s }
+s.homepage = 'https://github.com/Ray0218/JLYKit'
+s.authors = { '宁袁' => 'ray_ios@163.com' }
+s.source = { :git => 'https://github.com/Ray0218/JLYKit.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.platform = :ios
 s.ios.deployment_target = "12.0"
