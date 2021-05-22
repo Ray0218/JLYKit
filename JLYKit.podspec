@@ -5,7 +5,7 @@ s.version = '10.9.5'
 s.license = 'MIT'
 s.summary = 'A simple framework on iOS.'
 s.homepage = 'https://github.com/Ray0218/JLYKit'
-s.authors = { '宁袁' => 'ray_ios@163.com' }
+s.authors = { 'Ray0218' => 'ray_ios@163.com' }
 s.source = { :git => 'https://github.com/Ray0218/JLYKit.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.platform = :ios
