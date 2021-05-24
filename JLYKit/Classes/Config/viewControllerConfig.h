@@ -49,7 +49,7 @@ static inline UIEdgeInsets jly_safeAreaInset(UIView *view) {
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 
 #define themeColor(customColor) customColor ? : defaultTheme
-#define defaultTheme RGBA(54.0f, 182.0f, 169.0f, 1.0f)
+#define defaultTheme RGBA(24.0f, 142.0f, 251.0f, 1.0f)
 
 #define backColor(customColor) customColor ? : defaultBack
 #define defaultBack RGBA(246.0f, 246.0f, 246.0f, 1.0f)
