@@ -43,6 +43,8 @@
 //视图将要出现
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    
+    /*
     if (self.dataArray.count > 0) {
         [self.dataArray removeAllObjects];
     }
@@ -50,15 +52,20 @@
         [self.sectionArray removeAllObjects];
     }
     [self.tableView reloadData];
+     */
 }
 //视图已经出现
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
+    /*
     [self showLoadingUIWith:self.tableView];
     [self headerRefresh];
+     */
 }
 //视图将要消失
 - (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    /*
     if (self.dataArray.count > 0) {
         [self.dataArray removeAllObjects];
     }
@@ -66,6 +73,7 @@
         [self.sectionArray removeAllObjects];
     }
     [self.tableView reloadData];
+     */
 }
 //视图已经消失
 - (void)viewDidDisappear:(BOOL)animated{
